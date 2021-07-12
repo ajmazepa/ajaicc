@@ -1,0 +1,38 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>A Basic HTML5 Template</title>
+    <meta name="description" content="A simple HTML5 Template for new projects.">
+    <meta name="author" content="SitePoint">
+    <meta property="og:title" content="A Basic HTML5 Template">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="A simple HTML5 Template for new projects.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.min.css">
+</head>
+<body>
+    <div class="container">
+        <form>
+            <img id="Logo" src="img/aicc_wrapper.png" alt="AICC Wrapper" />
+            <div>
+                <button id="AICCGet">AICC Get</button>
+            </div>
+            <div>
+                <input type="text" id="Score" value="46" />
+                <input type="text" id="Time" value="0000:58:46" />
+                <button id="AICCPut">AICC Put</button>
+            </div>
+            <div>
+                <button id="AICCExit">AICC Exit</button>
+            </div>
+            <code id="Response"></code>
+        </form>
+    </div>
+    <script src="js/ajaicc.min.js"></script>
+    <script src="js/site.min.js"></script>
+</body>
+</html>

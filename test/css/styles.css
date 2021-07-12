@@ -1,0 +1,63 @@
+/* Fill the browser window */
+html, body {
+    margin: 0;
+    height: 100%;
+}
+/* Font */
+button, input {
+    font-family: 'Montserrat', sans-serif;
+}
+/* Content container*/
+.container {
+    margin: auto;
+    width: 50%;
+    padding: 2em;
+    text-align: center;
+}
+/* Input */
+input {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+/* Buttons */
+button {
+    background-color: #46a29f;
+    border: none;
+    color: white;
+    padding: 0.5em 1em;
+    margin: 0.5em 1em;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #307b79;
+}
+/* Logo image */
+#Logo {
+    margin-bottom: 1em;
+    max-width: 246px;
+}
+/* Response Code element */
+#Response {
+    font-size: 1.2em;
+}
+/* Animated background gradient */
+body {
+    background: linear-gradient(-45deg, #fff, #cccfd3, #95e7e0, #45a4a0);
+    background-size: 500% 500%;
+    animation: gradient 60s ease infinite;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}

@@ -1,0 +1,14 @@
+[Course]
+Course_Creator=A.J. Mazepa
+Course_ID=0046
+Course_System=A.J. Mazepa
+Course_Title=A.J.AICC Example
+Level=1
+Max_Fields_CST=2
+Total_AUs=1
+Total_Blocks=1
+Version=3.5
+[Course_Behavior]
+Max_Normal=99
+[Course_Description]
+A test of a JavaScript AICC communicator
