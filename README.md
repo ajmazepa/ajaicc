@@ -49,3 +49,9 @@ Include src/ajaicc.min.js in your project
       version: 
       aicc_data: 
     }
+
+## Examples
+`test_view_output.zip` Basic HTML template which demonstrates the GET, PUT, and EXIT AICC commands and displays the output. Needs to be loaded into an LMS or SCORM Cloud.
+
+## Examples
+`test_auto_complete_pdf.zip` A basic HTML template which records a completion and displays a PDF document. Needs to be loaded into an LMS or SCORM Cloud.
