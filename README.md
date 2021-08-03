@@ -1,3 +1,5 @@
+![](https://raw.githubusercontent.com/ajmazepa/ajaicc/main/img/ajaicc_banner.jpg)
+
 # ajaicc
 A simple JavaScript library to handle AICC LMS communication. It has been tested with SCORM Cloud and Cornerstone OnDemand Learning. If you test it in another LMS let me know how it goes!
 
